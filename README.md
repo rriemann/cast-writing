@@ -1,30 +1,26 @@
-# Hydejack Starter Kit
+# Clear and Smart Technical Writing
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://qwtel.com/hydejack/).
+*Clear and Smart Technical Writing*, CaST Writing for short, is a modern workflow to draft technical documents based on different free software components such as [Markdown] and [Atom].
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. `bundle install` [^1]
-4. `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+![Screenshot Atom Editor with One Light Theme and Syntax and font Fira Code (16px)](assets/img/screenshot-atom-editor.png)
 
-### GitHub Pages
-1. Fork this repository.
-2. Go to **Settings**, rename repository to `<your github username>.github.io` (without the `<` `>`)
-3. Edit `_config.yml` (you can do this directly on GitHub)
-    1. Change `url` to `https://<your github username>.github.io` (without the `<` `>`)
-    2. Change `baseurl` to `''` (empty string)
-    3. **Commit changes**.
-4. Go to **Settings** again, look for **GitHub Pages**, set **Source** to **master branch**.
-5. Click **Save** and wait for GitHub to set up your new blag.
+## Principle Features
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://qwtel.com/hydejack/docs/)
-* Buy the [PRO version](https://qwtel.com/hydejack/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+- clear minimalistic interface
+- clear writing tooltips
+- document versioning (version control)
+- track changes (differences between versions)
+- merging of diverging versions
+- concurrent editing (similar to Google Docs)
+- offline support and multi-device support
+- platform independent (for Windows, Mac and Linux)
+- reference management (citations)
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+## Workflow in Brief
 
-[download]: https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
+Text in structured [Markdown] syntax is written in the [Atom] editor and stored in simple plain-text Markdown files. These files are versioned using [Git] and converted to the desired output format using the tool [Pandoc].
+
+[Markdown]: https://en.wikipedia.org/wiki/Markdown
+[Atom]: https://en.wikipedia.org/wiki/Atom_(text_editor)
+[Git]: https://en.wikipedia.org/wiki/Git
+[Pandoc]: https://en.wikipedia.org/wiki/Pandoc
