@@ -1,10 +1,10 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # You can change `author1` to your shortname.
-author1:
+rriemann:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Robert Riemann
+  email:             robert-cast@riemann.cc
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -17,20 +17,20 @@ author1:
 
   # This photo will be used in the about section.
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/me.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+    # srcset:
+    #   1x:            https://placehold.it/128x128
+    #   2x:            https://placehold.it/256x256
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         <username>
-    github:          <username>
-    download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    # email:           mailto:<mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    twitter:         rriemann_eu
+    github:          rriemann/cast-writing
+    # download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
+    email:           mailto:robert-cast@riemann.cc
+    rss:             https://rriemann.github.io/cast-writing/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
