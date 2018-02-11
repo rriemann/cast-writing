@@ -9,7 +9,7 @@ rriemann:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Robert Riemann studied physics and computer science. During his studies, he wrote many technical documents using different tools and workflows. His passion for programming, web development, typography and technical writing lead to the idea to develop an easy workflow for technical writing using modern tools for better results.
+    Robert Riemann studied physics and computer science. During his studies, he wrote many technical documents using different tools and workflows. His passion for programming, web development, typography and technical writing lead to the idea to develop an easy workflow for technical writing with modern tools for better results.
 
   # This photo will be used in the about section.
   picture:
