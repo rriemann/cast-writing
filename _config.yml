@@ -72,7 +72,7 @@ paginate_path:         /blog/page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/patrick-fore-381196-blur.jpg
-accent_color:          '#4fb1ba'
+accent_color:          '#90370b'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
